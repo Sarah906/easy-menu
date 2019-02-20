@@ -1,0 +1,130 @@
+body {
+font-family: Helvetica, Arial ;
+font-size:15px;
+line-height: 1.5;
+padding:0;
+margin:0;
+background-color:#FDF2E9 ; 
+color:#515A5A;
+}
+/*Globel*/
+.container {
+width:80%;
+margin:auto;
+overflow:hidden;
+}
+.clr{
+	clear:both;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+.button_1{
+	height:30px;
+	background:grey;
+	padding-left:20px;
+	padding-right:20px;
+	color:white;
+
+}
+/*Header*/
+header{
+background: white;
+color: grey  ;
+padding-top:30px;
+min-height:70px;
+border-bottom: blue 10px soild;
+}
+header a{
+ color: #F0B27A;
+ text-decoration: none;
+ text-transform: uppercase;
+ font-size: 16px;
+
+}
+
+header li{
+	float-left;
+	display: inline;
+	padding:0 20px 0 20px ;
+}
+header h1 { margin:0;
+	float:left;
+}
+header nav{
+	float: right;
+	margin-top;10px;
+}
+header .highlight, header .current a{
+	color:#CA6F1E;
+	font-weight:bold;
+}
+a:hover{
+	color:grey;
+font-weight:bold;}
+}
+h3{
+	text-align:center;
+}
+/*showcase
+min-hight:400pix;
+background:url('../')no-repeat 0 -400px يرفع الهذا;
+
+*/
+#newsletter{
+	color:grey;
+	background:white;
+}
+#newsletter h3{
+	float:left;
+}
+#newsletter form{
+	float :right;
+	margin-top: 20px;
+}
+#newsletter input[type="email"]{
+	padding:4px;
+	height:25px;
+	width: 250px;
+}
+#today{
+border-style: ridge;
+border-width:  0 0 0 4px;
+}
+.boxes .box{
+    margin-top: 20px;
+	float:left;
+	text-align:center;
+	width:33.3%;
+	border:1px solid white;
+	box-sizing: border-box;
+}
+.my-form{
+background: white;
+	padding:20px;
+}
+.my-form .form-group{
+padding-bottom:15px;
+}
+.my-form label{
+	display:block;
+}
+.my-form input, .my-form textarea{
+	padding :8px;
+	width:80%;
+}
+.fix-me{
+
+	position: fixed;
+	background: white;
+	right:10px;
+}
+footer{
+	padding :5px;
+	margin-top:10px;
+	text-align :center;
+	}
+	/*Media Queries*/
+
+	
